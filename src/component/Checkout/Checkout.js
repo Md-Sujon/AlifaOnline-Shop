@@ -5,20 +5,16 @@ import './Checkout.css'
 import { UserContext } from '../../App';
 
 const Checkout = () => {
-
 const [loggedInUser,setLoggedInUser]= useContext(UserContext);
 
-   const {id}=useParams();
+  const {id}=useParams();
    const [product,setProduct]=useState({});
-
-
    useEffect (()=>{
        const url=`https://fathomless-beach-83483.herokuapp.com/products/${id}`
        fetch(url)
        .then(res=>res.json())
        .then(data=>setProduct(data))
    } ,[]) 
-
 const OrderConfirm = () => {
   const newOrder = {...loggedInUser, ...product};
   fetch('https://fathomless-beach-83483.herokuapp.com/newOrder', {
@@ -45,6 +41,8 @@ const OrderConfirm = () => {
         </div>
         <h1 className="total">Total:{product.Price}</h1>
         <Button onClick={OrderConfirm} className="buttons" variant="primary">Order Confirm</Button>
+
+        
        </div>
     );
 };
