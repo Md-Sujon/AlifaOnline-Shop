@@ -1,0 +1,16 @@
+.CheckOut{
+    display: inline-block;
+    display:flex;
+    margin-left:20px;
+}
+.CheckOut h1{
+    padding:100px;
+    border-bottom:1px solid  gray;
+}
+.total{
+    text-align:right;
+    margin-right: 110px;
+}
+.buttons{
+    margin-left: 1005px;
+}

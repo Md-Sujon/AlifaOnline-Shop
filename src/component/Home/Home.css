@@ -1,0 +1,12 @@
+.row{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 10px;
+    padding: 10px;
+}
+.spinner{
+    width:100px;
+    height:100px;
+    margin-left: 500px;
+    margin-top: 200px;
+}

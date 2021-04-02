@@ -1,0 +1,24 @@
+
+.Header{
+    text-align: center;
+    
+}
+.Header nav{
+    background-color: rgb(5, 181, 235);
+    line-height:50px;
+    font-size: 25px;
+}
+ nav a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    padding:5px;
+}
+nav a:hover{
+    background-color: gray;
+}
+.logo{
+    display: inline-block;
+    margin-right: 250px;
+    color:rgb(255, 255, 255);
+}

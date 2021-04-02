@@ -1,0 +1,15 @@
+.Card {
+    border: 1px solid gray;
+    
+  
+}
+.cards{
+    margin: 10px;
+}
+.name{
+    display: inline-block;
+}
+.Card h3{
+margin:20px;
+}
+

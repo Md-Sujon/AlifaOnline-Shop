@@ -1,0 +1,29 @@
+.admin{
+border:1px solid  gray;
+width:500px;
+width:600px;
+margin-top: 50px;
+margin-left: 300px;
+background-color:rgb(223, 223, 223);
+}
+.admins{
+    /* margin-left: 100px; */
+    text-align:center;
+    padding: 20px;
+    color: rgb(3, 138, 161);
+}
+.file{
+    margin-left:105px
+}
+.adminmanage{
+text-align:center;
+margin-top:20px;
+}
+.font{
+    font-size:30px;
+    margin:20px;
+    background-color:rebeccapurple;
+    border: 5px solid rgb(1, 180, 204);
+    border-radius:10px;
+    padding:10px;
+}
