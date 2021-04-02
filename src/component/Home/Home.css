@@ -10,3 +10,11 @@
     margin-left: 500px;
     margin-top: 200px;
 }
+
+@media only screen and (max-width: 648px) {
+    .row{
+    grid-template-columns: repeat(1,1fr);
+    margin: 10px;
+    padding: 10px;
+  }
+}

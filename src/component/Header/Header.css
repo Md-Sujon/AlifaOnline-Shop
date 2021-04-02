@@ -2,6 +2,7 @@
 .Header{
     text-align: center;
     
+    
 }
 .Header nav{
     background-color: rgb(5, 181, 235);
@@ -22,3 +23,18 @@ nav a:hover{
     margin-right: 250px;
     color:rgb(255, 255, 255);
 }
+@media only screen and (max-width: 500px) {
+    .Header{
+        text-align:center;
+    }
+    .logo{
+        display: inline-block;
+        margin-right: 250px;
+        color:rgb(0, 0, 0);
+    }
+    .Header nav{
+        background-color: rgb(5, 181, 235);
+        line-height:25px;
+        font-size: 10px;
+    }
+  }
